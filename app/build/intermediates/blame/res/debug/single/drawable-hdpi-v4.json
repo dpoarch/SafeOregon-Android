@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sel_right.png",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\sel_right.png"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg3.png",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\bg3.png"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg1.png",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\bg1.png"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\headerbg.png",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\headerbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\appbackground.png",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\appbackground.png"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_splash.jpg",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\ic_splash.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_safe_oregon.png",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\ic_safe_oregon.png"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg2.png",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\bg2.png"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buttonsubmit.png",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\buttonsubmit.png"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\leftthumb.png",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\leftthumb.png"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back.png",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\close.png",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\close.png"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_next.png",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\ic_next.png"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_back_arrow.png",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\ic_back_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sel_left.png",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\drawable-hdpi\\sel_left.png"
+    }
+]

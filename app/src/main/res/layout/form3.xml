@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/form3_bg_color"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/LBL_SITUATION"
+                style="@style/TextView"
+                android:text="How many times has this situation happened ?" />
+
+            <Spinner
+                android:id="@+id/spSituation"
+                style="@style/TextViewImage"
+                 />
+
+            <TextView
+                android:id="@+id/LBL_INCIDENT"
+                style="@style/TextView"
+                android:text="Have you reported this incident to an adult ?" />
+
+            <Spinner
+                android:id="@+id/spIncidentAdult"
+                style="@style/TextViewImage"
+                />
+
+            <EditText
+                android:id="@+id/edtWho"
+                style="@style/TextViewImage"
+                android:ems="10"
+                android:hint="Who ?"
+                android:singleLine="true"
+                android:visibility="gone">
+            </EditText>
+
+
+
+        </LinearLayout>
+
+</LinearLayout>

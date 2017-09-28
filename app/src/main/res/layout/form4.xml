@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/form4_bg_color"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/LBL_WHO"
+                style="@style/TextView"
+                android:text="Who are you?" />
+
+            <Spinner
+                android:id="@+id/spReporterType"
+                style="@style/TextViewImage"
+                 />
+
+            <TextView
+                android:id="@+id/LBL_NAME"
+                style="@style/TextView"
+                android:text="What is your name? (Optional)" />
+
+            <EditText
+                android:id="@+id/editTextName"
+                style="@style/TextViewImage"
+                android:singleLine="true"
+                android:ems="10" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/LBL_PHONE"
+                style="@style/TextView"
+                android:text="If you are not a student at this campus and would like someone to contact you, please add your phone number here. (Optional)"
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/editTextPhNo"
+                style="@style/TextViewImage"
+                android:ems="10"
+                android:singleLine="true"
+                android:inputType="number"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/txtUploadMsg"
+                style="@style/TextView"
+                android:text="You can upload a photo or short video by clicking on the upload button below" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/imgUpload"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffffff"
+                android:minHeight="40dp"
+                android:minWidth="100dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:background="@drawable/buttonsubmit"
+                android:text="Upload" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:minHeight="40dp"
+                android:minWidth="100dp"
+                android:background="@drawable/buttonsubmit"
+                android:text="Submit" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

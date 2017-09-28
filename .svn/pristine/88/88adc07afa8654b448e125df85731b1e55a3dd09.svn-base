@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/formHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/headerbg"
+        >
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:onClick="btnHeaderBackClick"
+            android:background="@drawable/back"
+            android:textColor="#ffffffff"
+            android:text=" Back"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:id="@+id/btnHeaderNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/next"
+            android:onClick="btnHeaderNextClick"
+            android:layout_marginRight="5dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="Next"
+            android:textSize="12sp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Form 1 "
+            android:layout_centerInParent="true"
+            android:textColor="#ffffffff" />
+
+    </RelativeLayout>
+
+    <ViewFlipper
+        android:id="@+id/formFlipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <include layout="@layout/form1" />
+
+        <include layout="@layout/form2" />
+
+        <include layout="@layout/form3" />
+
+        <include layout="@layout/form4" />
+    </ViewFlipper>
+</LinearLayout><!-- From: file:/home/projects/Studioworkspace/StoryConsSample/app/src/main/res/layout/activity_form.xml -->

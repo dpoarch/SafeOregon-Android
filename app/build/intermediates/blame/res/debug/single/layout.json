@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form1.xml",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\layout\\form1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_tips_view.xml",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\layout\\common_tips_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_form.xml",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\layout\\activity_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form4.xml",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\layout\\form4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form2.xml",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\layout\\form2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tips_list.xml",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\layout\\activity_tips_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_screen.xml",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\layout\\splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_webview.xml",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\layout\\activity_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form3.xml",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\layout\\form3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video_trim.xml",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\layout\\activity_video_trim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header.xml",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\layout\\header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\thankyou.xml",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\layout\\thankyou.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tips_detail.xml",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\layout\\activity_tips_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_header.xml",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\layout\\activity_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Greecos_09\\Desktop\\SafeOregonStudio_20_06_2016\\SafeOregonStudio\\app\\src\\main\\res\\layout\\activity_home.xml"
+    }
+]

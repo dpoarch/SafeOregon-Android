@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_above="@+id/linearLayout">
+
+
+        <Button
+            android:id="@+id/btnCallHelp"
+            style="@style/txt_home"
+            android:text="@string/btn_call_help" />
+
+        <Button
+            android:id="@+id/btnMyTips"
+            style="@style/txt_home"
+            android:text="@string/btn_my_tips" />
+
+        <Button
+            android:id="@+id/btnSubmitTips"
+            style="@style/txt_home"
+            android:text="@string/btn_submit_tips" />
+
+        <Button
+            android:id="@+id/btnResources"
+            style="@style/txt_home"
+            android:text="@string/btn_resources" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/linearLayout">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:padding="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dip"
+            android:id="@+id/txtAppVersion" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+<!-- From: file:/home/projects/Studioworkspace/StoryConsSample/app/src/main/res/layout/activity_home.xml -->

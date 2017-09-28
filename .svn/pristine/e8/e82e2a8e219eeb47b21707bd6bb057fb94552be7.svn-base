@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/form1_bg_color"
+    android:padding="10dp" >
+
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+    <TextView
+        android:id="@+id/LBL_LIVE"
+        style="@style/TextView"
+        android:text="What state do you live in?"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spStateName"
+         style="@style/TextViewImage"
+        android:visibility="gone"
+        >
+        </Spinner>
+
+    <TextView 
+        android:id="@+id/LBL_SEL_SCHOOL"
+		style="@style/TextView"
+		android:text="School Name"/>
+    
+    <AutoCompleteTextView 
+        android:id="@+id/autoschoolName"
+        style="@style/TextViewImage"
+        android:completionThreshold="1"
+        android:singleLine="true"
+        android:scrollbars="vertical"
+       
+/>
+    
+    <TextView 
+        android:id="@+id/LBL_WHERE_INCIDENT"
+        style="@style/TextView"
+        android:text="Where did you hear or see this incident?"/>
+
+    <Spinner
+        android:id="@+id/spIncident"
+        style="@style/TextViewImage"
+         />
+    
+    <TextView 
+        android:id="@+id/LBL_WHEN_HAPPEN"
+        style="@style/TextView"
+        android:text="When did you hear or see this incident?"/>
+
+    <Button
+        android:id="@+id/btnDateTime"
+        style="@style/TextViewImage"
+        android:onClick="btnDateTimeClick"
+        android:gravity="left|center_vertical" />
+   
+    <TextView 
+        android:id="@+id/LBL_TIME"
+        style="@style/TextView"
+        android:text="What time did it happen?"/>
+<Spinner
+        android:id="@+id/spTime"
+        style="@style/TextViewImage"
+      />
+</LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/home/projects/Studioworkspace/StoryConsSample/app/src/main/res/layout/form1.xml -->

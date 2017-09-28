@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Greecos_09\Desktop\SafeOregonStudio_20_06_2016\SafeOregonStudio\app\libs\acra-4.5.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
+        <dex dex="C:\Users\Greecos_09\Desktop\SafeOregonStudio_20_06_2016\SafeOregonStudio\app\build\intermediates\pre-dexed\debug\acra-4.5.0_2a05dcf982e2b051b1779e37444eff8476d81089.jar" />
+    </item>
+    <item
+        jar="C:\Users\Greecos_09\Desktop\SafeOregonStudio_20_06_2016\SafeOregonStudio\app\build\intermediates\exploded-aar\com.github.hiteshsondhi88.libffmpeg\FFmpegAndroid\0.2.5\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4ec92c631de57ff2a3e9c5c6bdcf723e7020a4c">
+        <dex dex="C:\Users\Greecos_09\Desktop\SafeOregonStudio_20_06_2016\SafeOregonStudio\app\build\intermediates\pre-dexed\debug\com.github.hiteshsondhi88.libffmpeg-FFmpegAndroid-0.2.5_7424c903a1a01e5057da0a50673d3dc9aaad00e5.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/projects/Studioworkspace/StoryConsSample/app/src/main/assets"><file name="airshipconfig.properties" path="/home/projects/Studioworkspace/StoryConsSample/app/src/main/assets/airshipconfig.properties"/><file name="sprigeo_en.json" path="/home/projects/Studioworkspace/StoryConsSample/app/src/main/assets/sprigeo_en.json"/></source></dataSet><dataSet config="debug"><source path="/home/projects/Studioworkspace/StoryConsSample/app/src/debug/assets"/></dataSet></merger>

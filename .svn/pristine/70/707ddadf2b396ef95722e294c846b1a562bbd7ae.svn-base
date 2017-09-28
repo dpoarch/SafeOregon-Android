@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/thank_bg_color"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:text="@string/thanks_msg"
+        android:textSize="@dimen/medium_font"
+         />
+
+    <Button
+        android:id="@+id/btnThank"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_new_tip"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout><!-- From: file:/home/projects/Studioworkspace/StoryConsSample/app/src/main/res/layout/thankyou.xml -->

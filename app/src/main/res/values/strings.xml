@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Safe Oregon</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the
+        application to stop. Please help us fix this by sending us error data,
+        all you have to do is click OK.
+    </string>
+    <string name="crash_dialog_title">Crash Report</string>
+
+    <!-- home activity !-->
+    <string name="btn_call_help">Call Help Line</string>
+    <string name="btn_my_tips">My Tips</string>
+    <string name="btn_submit_tips">Submit a Tip</string>
+    <string name="btn_resources">Resources</string>
+    <string name="call_help_line">Call the Help Line? If this is an emergency situation, call 911.</string>
+    <string name="call">Call</string>
+    <string name="cancel">Cancel</string>
+    <string name="dial_call">844-472-3367</string>
+    <string name="btn_view">View</string>
+    <string name="title_tips_list">MyTips</string>
+    <string name="title_tips_detail">MyTipsDetail</string>
+    <string name="title_home_Activity">Safe Oregon</string>
+    <string name="title_web_activity">WebActivity</string>
+    <string name="title_thank_u">Thank You</string>
+
+    <string name="spinnerStateTitle">Select a State</string>
+    <string name="spinnerTimeTitle">Select a Time</string>
+    <string name="spinnerIncidentTitle">Select a incident</string>
+    <string name="spinnerReporterTitle">Select a Type</string>
+    <string name="txt_msg_place_holder">Graphic Placeholder for app</string>
+    <string name="submit_new_tip">Submit New Tip</string>
+    <string name="thanks_msg">Thank you for helping to keep our schools safe. Your tip was sent. Your tip ID number is 1234. If this is an emergency situation please call 911</string>
+
+
+    <string-array name="ReporterType">
+        <item>---Select---</item>
+        <item>Student</item>
+        <item>Teacher</item>
+        <item>Staff Member</item>
+        <item>Administrator</item>
+        <item>Board Member</item>
+        <item>Volunteer</item>
+        <item>Parent</item>
+        <item>Other</item>
+
+    </string-array>
+
+    <string-array name="incidentAdult">
+        <item>Select</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="sutuationList">
+        <item>Select</item>
+        <item>This is the first time</item>
+        <item>One other time</item>
+        <item>Once a month</item>
+        <item>Once a week</item>
+        <item>Every day</item>
+
+    </string-array>
+
+
+
+
+</resources>

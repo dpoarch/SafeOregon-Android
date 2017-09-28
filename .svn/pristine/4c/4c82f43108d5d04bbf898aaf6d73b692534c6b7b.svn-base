@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/thank_bg_color"
+    android:orientation="vertical" >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgSplash"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_splash"/>
+</LinearLayout><!-- From: file:/home/projects/Studioworkspace/StoryConsSample/app/src/main/res/layout/splash_screen.xml -->

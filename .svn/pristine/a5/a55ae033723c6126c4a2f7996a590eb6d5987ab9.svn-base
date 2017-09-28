@@ -1,0 +1,72 @@
+package com.safeoregon.app;
+
+import android.app.Activity;
+import android.content.Context;
+import android.os.Bundle;
+import android.view.View.OnClickListener;
+import android.widget.LinearLayout;
+
+import com.etech.util.Header;
+
+
+public class HeaderActivity extends Activity {
+
+	Context context = HeaderActivity.this;
+
+	private Header header;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+
+	}
+
+	public void setRightBtnClickListner(OnClickListener btnRighClickListener) {
+		header.btnRighClickListener(btnRighClickListener);
+	}
+
+	public void setRightButtonImageRecourceId(int rightBtnImage) {
+		header.setRightBtnImage(rightBtnImage);
+	}
+
+	public void setLeftBtnClickListner(OnClickListener btnLeftClickListener) {
+		header.setLeftBtnClickListener(btnLeftClickListener);
+	}
+
+	public void setLeftButtonImageRecourceId(int leftBtnImage) {
+		header.setLeftBtnImage(leftBtnImage);
+	}
+
+	public void setTitle(String title) {
+		header.setTitle(title);
+
+	}
+	
+
+	public void setBackGroundColor(int resid) {
+		header.setBackgroundResource(resid);
+		//AppUtils.setStatusbarColor(context,resid);
+	}
+
+	
+	private LinearLayout fullLayout;
+
+	
+	@Override
+	public void setContentView(final int layoutResID) 
+	{
+		fullLayout= (LinearLayout) getLayoutInflater().inflate(R.layout.activity_header, null);
+		LinearLayout actContent= (LinearLayout) fullLayout.findViewById(R.id.content);
+
+		
+		header = (Header)fullLayout.findViewById(R.id.header1);
+		header.init(this,null,null,null,false);
+
+		getLayoutInflater().inflate(layoutResID, actContent, true);
+		super.setContentView(fullLayout);
+	}
+
+	
+	
+
+}

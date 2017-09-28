@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="spash_Screen">#E6E6FA</color>
+    <color name="header_bg_color">#D3D3D3</color>
+    <color name="header_center_title_color">#ffffffff</color>
+    <color name="app_bg_color">#FF52BFD5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tip_bgcolor">#FF52BFD5</color>
+    <color name="form1_bg_color">#FF52BFD5</color>
+    <color name="form2_bg_color">#FF7FBB49</color>
+    <color name="form3_bg_color">#FF7FBB49</color>
+    <color name="form4_bg_color">#FF00A651</color>
+    <color name="thank_bg_color">#FF00A651</color>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:id="@+id/linearParent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@+id/btnView">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/txtTipsNo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/txtTipsDate" />
+    </LinearLayout>
+
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_view"
+        android:minWidth="90dp"
+        android:layout_margin="5dp"
+        android:id="@+id/btnView" />
+</RelativeLayout>
+<!-- From: file:/home/projects/Studioworkspace/StoryConsSample/app/src/main/res/layout/common_tips_view.xml -->

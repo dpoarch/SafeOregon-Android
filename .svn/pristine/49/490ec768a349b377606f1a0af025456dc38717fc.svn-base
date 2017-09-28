@@ -1,0 +1,96 @@
+package com.safeoregon.app;
+
+import android.app.ProgressDialog;
+import android.os.Bundle;
+import android.view.View;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.Toast;
+
+import com.etech.util.ConnectionDetector;
+import com.etech.util.Constant;
+import com.etech.util.Header;
+
+
+public class WebViewActivity extends HeaderActivity {
+
+
+    ProgressDialog pDialog;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        // TODO Auto-generated method stub
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_webview);
+
+        setHeader();
+
+        WebView webview = (WebView) findViewById(R.id.webView);
+        webview.getSettings().setJavaScriptEnabled(true);
+
+        ConnectionDetector checkConnection = new ConnectionDetector(this);
+        Boolean isInternet = checkConnection.isConnectingToInternet();
+        if (isInternet) {
+
+            webview.loadUrl(Constant.websiteUrl);
+
+            pDialog = new ProgressDialog(this);
+            pDialog.setMessage("Loading...");
+            pDialog.setCancelable(true);
+            pDialog.show();
+
+        } else {
+            Toast.makeText(this, "No Internet Connection available.", Toast.LENGTH_LONG).show();
+        }
+
+
+        webview.setWebViewClient(new WebViewClient() {
+
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                // TODO Auto-generated method stub
+                return super.shouldOverrideUrlLoading(view, url);
+            }
+
+
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                if (pDialog != null) {
+                    pDialog.dismiss();
+                }
+            }
+
+            @Override
+            public void onReceivedError(WebView view, int errorCode,
+                                        String description, String failingUrl) {
+                if (pDialog != null) {
+                    pDialog.dismiss();
+                }
+            }
+
+
+        });
+    }
+
+    private void setHeader() {
+        try {
+
+            super.setTitle(getString(R.string.title_web_activity));
+            Header header = (Header) findViewById(R.id.header1);
+            header.setLeftBtnImage(R.drawable.ic_back_arrow);
+            header.hideRightBtn();
+            header.setLeftBtnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    finish();
+                }
+            });
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
+}
